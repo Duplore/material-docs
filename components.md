@@ -1,23 +1,23 @@
 # Components for v2 release
-buttons
-grid
-elevation
-button-group
-checkboxes
-floating-action-buttons
-radio
-select
-slider
-switch
-text-fields
-appbars
-tabs
-snackbar
-menu
-accordion
-progress
-dialog
-badges
-chip
-tooltips 
-typography
+buttons <br>
+grid <br>
+elevation <br>
+button-group <br>
+checkboxes <br>
+floating-action-buttons <br>
+radio <br>
+select <br>
+slider <br>
+switch <br>
+text-fields <br>
+appbars <br>
+tabs <br>
+snackbar <br>
+menu <br>
+accordion <br>
+progress <br>
+dialog <br>
+badges <br>
+chip <br>
+tooltips  <br>
+typography <br>

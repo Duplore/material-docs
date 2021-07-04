@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            {% if page.title %}{{ page.title }} - {% endif %}{{ config.site_name
+            }}
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+        <meta content="utf-8" http-equiv="encoding" />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/gh/tronic247/material/dist/css/style.min.css"
+        />
+        <link rel="stylesheet" href="{{ base_url }}/style.css" />
+    </head>
+    <body>
+        <header>
+            <div class="appbar fixed elevating">
+                <nav>
+                    <a class="name no-icon">Tronic247 Material <span>- {{ page.title }}</span></a>
+                </nav>
+                <div class="float-right">
+                    <a href={{ page.edit_url }} class="ripple-e icon"><span class="material-icons">edit</span></a>
+                </div>
+            </div>
+        </header>
+        <div class="sides">
+            <div class="list">
+                {% if nav|length>1 %}
+                    {% for nav_item in nav %} {% if nav_item.children %}
+                        <p><strong>{{ nav_item.title }}</strong></p>
+                            {% for nav_item in nav_item.children %}
+                            <a
+                                class="
+                                    list-item
+                                    ripple-e
+                                    {%
+                                    if
+                                    nav_item.active%}active{%
+                                    endif
+                                    %}
+                                "
+                                href="{{ nav_item.url|url }}"
+                            >
+                               {{ nav_item.title }}
+                            </a>
+                            {% endfor %}
+                    {% else %}
+                    <a class="list-item ripple-e {% if nav_item.active%}active{% endif %}" href="{{ nav_item.url|url }}">
+                        {{ nav_item.title }}
+                    </a>
+                    {% endif %} {% endfor %}
+                </ul>
+                {% endif %}
+            </div>
+            <div class="container main">{{ page.content }}</div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.skypack.dev/@hotwired/turbo" type="module"></script>
+    </body>
+</html>

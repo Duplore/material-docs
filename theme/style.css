@@ -26,8 +26,8 @@ ul {
     line-height: 37px !important;
 }
 
-.hljs {
-    font-family: consolas, monospace, sans-serif;
+img, svg {
+    isolation: isolate;
 }
 
 li:before {
@@ -42,6 +42,10 @@ li:before {
 
 .appbar .title {
     color: white;
+}
+
+.appbar .section.right {
+    margin-right: 0.8em;
 }
 
 .page-title {
@@ -97,4 +101,8 @@ footer {
 
 .material-icons {
 	color: white;
+}
+
+.darkmode-toggle {
+    display: none;
 }

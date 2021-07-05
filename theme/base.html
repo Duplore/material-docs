@@ -12,6 +12,7 @@
         {% endif %}
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+
         <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -25,6 +26,8 @@
             href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.0.1/build/styles/default.min.css"
         />
         <link rel="stylesheet" href="{{ base_url }}/style.css" />
+
+        <script src="https://cdn.jsdelivr.net/npm/darkmode-js/lib/darkmode-js.min.js"></script>
     </head>
     <body class="container-fluid p-0 m-0">
         <header
@@ -36,12 +39,13 @@
                     >Tronic247 Material</a
                 >
             </section>
+            <section class="section right"><button class="icon" onclick="darkmode.toggle();"><span class="material-icons">dark_mode</span></button></section>
         </header>
         {% block content %}{% endblock %}
         <footer class="p-4 background-primary text-white">
             <p>People who supported this project:</p><br>
             <a href="{{ config.main_repo_url }}/graphs/contributors">
-                <embed src="https://contrib.rocks/image?repo=tronic247/material"></embed>
+                <embed src="https://contrib.rocks/image?repo=tronic247/material" class="darkmode-ignore"></embed>
             </a><br><br>
              <p>A framework by <a href="http://tronic247.com/?ref=material" class="text-white" rel="follow">Tronic247</a></p><br>
         </footer>
@@ -53,6 +57,11 @@
         ></script>
         <script data-no-instant>
             InstantClick.init("mousedown");
+            try {
+                console.log(darkmode);
+            } catch (error) {
+                const darkmode = new Darkmode({backgroundColor: '#ffffff'});
+            }
         </script>
         <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.0.1/build/highlight.min.js"></script>
         <script

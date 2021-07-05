@@ -21,11 +21,11 @@
 		</section>
 	</header>
 	<div class="p-4"></div>
-	<div class="background-primary p-5">
+	<div class="background-primary page-title">
 		<h1 class="h4 text-white">{{ page.title }}</h1>
 	</div>
-	<article class="row container-fluid m-0 p-0">
-		<aside class="col-3">
+	<article class="row sides container-fluid m-0 p-0">
+		<aside>
 			<div class="list">
 				{% if nav|length>1 %}
 				{% for nav_item in nav %} {% if nav_item.children %}
@@ -33,8 +33,7 @@
 				{% for nav_item in nav_item.children %}
 				<a
 				class="
-				list-item
-				ripple-e
+				list-item ripple-e
 				{%
 					if
 					nav_item.active%}active{%
@@ -54,8 +53,8 @@
 				{% endif %}
 			</div>
 		</aside>
-		<main class="col-9">
-			<div class="p-1">{{ page.content }}</div>
+		<main class="col-9 p-3">
+			{{ page.content }}
 		</main>
 	</article>
 	</div>

@@ -1,4 +1,11 @@
-The docs for Tronic247 Material
-If you have to add or change something in the docs please send a PR to this repo with the component name.
-ex- buttons; Create a new html file named buttons.html and write the contents should be there. in semantic html
-Thank you very much for your support.
+<p align="center"><img align="center" src="https://user-images.githubusercontent.com/76736580/123750797-a2be9f00-d8d4-11eb-9dce-13911244820e.png" /></p>
+<p align="center"><b>The New Material Design Framework</b> Based on jQuery</p>
+<p align="center"><a href="https://www.tronic247.com/material/">Tronic247 Material</a></p>
+<p align="center"><img src="https://img.shields.io/github/stars/tronic247/material?style=flat-square"/>
+<img src="https://img.shields.io/github/last-commit/tronic247/material?style=flat-square"/>
+<img src="https://img.shields.io/github/issues/tronic247/material?style=flat-square"/>
+<img src="https://img.shields.io/badge/Tronic247-Product-%23e41c26"/> <a href="https://gitter.im/Tronic247-Material/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge"><img src="https://badges.gitter.im/Tronic247-Material/community.svg"/></a></p>
+
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tronic247&repo=material&layout=compact" />
+</p>

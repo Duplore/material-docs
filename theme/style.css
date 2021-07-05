@@ -296,6 +296,8 @@ aside .list {
     .sides aside {
         flex: none;
         width: 100%;
+        height: initial;
+        position: static;
     }
 
     .sides main {

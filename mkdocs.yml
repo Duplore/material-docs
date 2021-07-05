@@ -19,3 +19,8 @@ markdown_extensions:
     
 nav:
     - Home: index.md
+    - Getting Started:
+    - Components:
+          - Buttons: buttons.md
+         
+      

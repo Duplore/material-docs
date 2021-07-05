@@ -1,5 +1,3 @@
-
-## Getting Started
 ### Installing localy
 If you want to install locally, simply click the button below.
 <a class="btn">Download</a>

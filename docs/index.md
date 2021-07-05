@@ -32,6 +32,7 @@
 				<a href="#!" class="btn outlined">Star On Github</a>
 			</div>
 		</div>
+	</div>
 
 
 

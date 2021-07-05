@@ -1,4 +1,3 @@
-
 .sides aside {
 	position: sticky;
 	top: 56px;
@@ -293,4 +292,8 @@ aside .list {
         word-wrap: break-word;
         width: 100%;
     }
+}
+
+footer {
+	text-align: center;
 }

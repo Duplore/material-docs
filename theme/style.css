@@ -10,6 +10,10 @@
 .appbar .title {
     color: white;
 }
+* {
+    text-overflow: clip;
+    overflow: auto;
+}
 
 .page-title {
     padding: 2.5em;

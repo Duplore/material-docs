@@ -1,7 +1,9 @@
-.turbo-progress-bar {
-    visibility: hidden;
-}
 
+.sides aside {
+	position: sticky;
+	top: 56px;
+	height: 100vh;
+}
 .appbar {
     min-height: 57px;
     z-index: 999;
@@ -262,6 +264,8 @@ aside .list {
     position: sticky;
     top: 57px;
     border-top: 0;
+    max-height: 96%;
+    overflow: auto;
 }
 
 .sides main {

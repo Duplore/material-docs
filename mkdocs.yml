@@ -17,9 +17,3 @@ markdown_extensions:
         permalink: true
     admonition: {}
     
-nav:
-    - Getting Started: /material-docs/getting-started
-    - Components:
-          - Buttons: /material-docs/buttons
-         
-      

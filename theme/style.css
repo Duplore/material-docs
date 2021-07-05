@@ -8,31 +8,31 @@
 }
 
 h3 {
-	font-size: 30px !important;
-	margin: 20px 0px;
-	border-bottom: 1px solid gainsboro;
-	padding: 0px 0px 11px 0px;
+    font-size: 30px !important;
+    margin: 20px 0px;
+    border-bottom: 1px solid gainsboro;
+    padding: 0px 0px 11px 0px;
 }
+
 h4 {
-	font-size: 24px !important;
-	margin: 10px 0px;
+    font-size: 24px !important;
+    margin: 10px 0px;
 }
-p:not(button , .btn) {
-	line-height: 33px;
-}
+
 ul {
-	list-style: cambodian !important;
-	margin: 10px 39px;
-	line-height: 37px !important;
+    list-style: square !important;
+    margin: 10px 39px;
+    line-height: 37px !important;
 }
+
 li:before {
-	content: "";
-	height: 10px;
-	width: 10px;
-	background: #707070;
-	display: inline-block;
-	margin-right: 10px;
-	border-radius: 100px;
+    content: "";
+    height: 10px;
+    width: 10px;
+    background: none;
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 100px;
 }
 
 .appbar .title {

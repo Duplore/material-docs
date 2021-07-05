@@ -10,9 +10,8 @@
         {% else %}
         <link rel="shortcut icon" href="{{ 'img/favicon.ico'|url }}" />
         {% endif %}
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
-        <meta content="utf-8" http-equiv="encoding" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -27,9 +26,6 @@
             href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.0.1/build/styles/default.min.css"
         />
         <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.0.1/build/highlight.min.js"></script>
-        <script>
-            hljs.highlightAll();
-        </script>
         <script
             data-ad-client="ca-pub-8836219589547174"
             async
@@ -42,9 +38,7 @@
             style="position: fixed; top: 0; left: 0; width: 100%"
         >
             <section class="section left">
-                <a
-                    class="title text-white"
-                    href={{ nav.homepage.url|url }}
+                <a class="title text-white" href="{{nav.homepage.url|url}}"
                     >Tronic247 Material</a
                 >
             </section>
@@ -55,6 +49,15 @@
         {% block content %}{% endblock %}
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="https://cdn.jsdelivr.net/gh/tronic247/material/dist/js/material.min.js"></script>
-		<script src="{{ base_url }}/script.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/gh/dieulot/instantclick@master/src/instantclick.js"
+            data-no-instant
+        ></script>
+        <script data-no-instant>
+            InstantClick.init("mousedown");
+        </script>
+        <script>
+            hljs.highlightAll();
+        </script>
     </body>
 </html>

@@ -1,14 +1,11 @@
 {% extends "base.html" %}
-{% block edit_btn %}
-    <a class="btn" href={{ page.edit_url }}>Edit this page</a>
-{% endblock %}
 {% block content %}
 	<div class="p-4"></div>
-	<div class="background-primary page-title">
+	<div class="background-primary page-title" style="display: flex;">
 		<h1 class="h4 text-white">{{ page.title }}</h1>
+		<a class="btn icon ripple-e" style="margin-left: 0.5em;" href={{ page.edit_url }}><span class="material-icons">edit</span></a>
 	</div>
-	<article class="row sides p-0 container-fluid">
-		<div class="row">	
+	<article class="row sides p-0 m-0">
 		<aside class="col-3">
 			<div class="list small">
 				{% if nav|length>1 %}
@@ -40,7 +37,6 @@
 		<main class="col-3 p-3">
 			{{ page.content }}
 		</main>
-	</div>
 	</article>
 	</div>
 {% endblock %}

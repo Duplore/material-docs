@@ -11,9 +11,3 @@ theme:
     custom_dir: 'theme'
     static_templates:
         - index.html
-        
-markdown_extensions:
-    toc:
-        permalink: true
-    admonition: {}
-    

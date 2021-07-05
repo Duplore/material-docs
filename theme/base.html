@@ -20,13 +20,11 @@
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/gh/tronic247/material/dist/css/material.min.css"
         />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
+        <link 
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.0.1/build/styles/default.min.css"
+        />
         <link rel="stylesheet" href="{{ base_url }}/style.css" />
-        <script
-            data-ad-client="ca-pub-8836219589547174"
-            async
-            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-        ></script>
     </head>
     <body class="container-fluid p-0 m-0">
         <header
@@ -38,19 +36,14 @@
                     >Tronic247 Material</a
                 >
             </section>
-            <section class="section right">
-                <input class="btn" id="search" placeholder="Search" style="position: relative; vertical-align: top;margin-top: -8px;text-transform: none;"/>
-                <a class="btn icon" href="https://github.com/Tronic247/material/stargazers"><i class="material-icons">star</i></a>
-                {% block edit_btn %}{% endblock %}
-            </section>
         </header>
         {% block content %}{% endblock %}
         <footer class="p-4 background-primary text-white">
-            <p>People who supported this project</p><br>
-            <a href="https://github.com/tronic247/material/graphs/contributors">
+            <p>People who supported this project:</p><br>
+            <a href="{{ config.main_repo_url }}/graphs/contributors">
                 <embed src="https://contrib.rocks/image?repo=tronic247/material"></embed>
             </a><br><br>
-             <p>This is a product by <a href="http://tronic247.com/?ref=material" class="text-white" rel="follow">Tronic247</a></p><br>
+             <p>A framework by <a href="http://tronic247.com/?ref=material" class="text-white" rel="follow">Tronic247</a></p><br>
         </footer>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="https://cdn.jsdelivr.net/gh/tronic247/material/dist/js/material.min.js"></script>
@@ -62,17 +55,14 @@
             InstantClick.init("mousedown");
         </script>
         <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.0.1/build/highlight.min.js"></script>
+        <script
+            data-ad-client="ca-pub-8836219589547174"
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+        ></script>
+        <script async defer src="https://buttons.github.io/buttons.js"></script>
         <script>
             hljs.highlightAll();
         </script>
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
-        <script type="text/javascript"> docsearch({
-                apiKey: '2f622bb017fc137b9c550c565cb2452e',
-                indexName: 'tronic_material',
-                inputSelector: '#search',
-                debug: !1 // Set debug to true if you want to inspect the dropdown
-           });
-            setInterval(function(){ jQuery(".algolia-docsearch-suggestion--wrapper").addClass('ripple-e dark'); }, 300);
-        </script> 
     </body>
 </html>

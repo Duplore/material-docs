@@ -3,9 +3,16 @@ site_url: https://tronic247.github.io/material-docs/
 repo_url: https://github.com/Tronic247/material-docs
 main_repo_url: https://github.com/Tronic247/material
 edit_uri: edit/main/docs/
+site_author: Posandu Mapa
+copyright: Tronic247
 
 theme:
     name: null
     custom_dir: 'theme'
     static_templates:
         - index.html
+        
+markdown_extensions:
+    toc:
+        permalink: true
+    admonition: {}

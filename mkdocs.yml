@@ -18,8 +18,8 @@ markdown_extensions:
     admonition: {}
     
 nav:
-    - Getting Started: /docs/getting-started.md
+    - Getting Started: /docs/getting-started
     - Components:
-          - Buttons: /docs/buttons.md
+          - Buttons: /docs/buttons
          
       

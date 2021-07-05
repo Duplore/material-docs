@@ -18,6 +18,16 @@ code.hljs {
 .hljs {
 	background:#2e3440
 }
+.headerlink {
+	background: white;
+	padding: 10px 0px;
+	color: #e5e5e5;
+	margin: 0px 15px;
+	transition: all 0.2s ease;
+}
+.headerlink:hover {
+	color: #1976d2;
+}
 .hljs,
 .hljs-subst {
 	color:#d8dee9

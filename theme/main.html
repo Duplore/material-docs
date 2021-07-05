@@ -24,8 +24,9 @@
 	<div class="background-primary page-title">
 		<h1 class="h4 text-white">{{ page.title }}</h1>
 	</div>
-	<article class="row sides container-fluid m-0 p-0">
-		<aside>
+	<article class="row container-fluid m-0 p-0">
+		<div class="row">	
+		<aside class="col-3">
 			<div class="list">
 				{% if nav|length>1 %}
 				{% for nav_item in nav %} {% if nav_item.children %}
@@ -56,6 +57,7 @@
 		<main class="col-9 p-3">
 			{{ page.content }}
 		</main>
+	</div>
 	</article>
 	</div>
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

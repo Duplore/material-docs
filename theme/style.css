@@ -295,6 +295,7 @@ aside .list {
 @media screen and (max-width: 600px) {
     .sides aside {
         flex: none;
+        margin: 0 auto;
         width: 100%;
         height: initial;
         position: static;

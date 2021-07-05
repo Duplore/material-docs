@@ -18,9 +18,8 @@ markdown_extensions:
     admonition: {}
     
 nav:
-    - Home: docs/index.md
-    - Getting Started:
+    - Getting Started: /docs/getting-started.md
     - Components:
-          - Buttons: docs/buttons.md
+          - Buttons: /docs/buttons.md
          
       

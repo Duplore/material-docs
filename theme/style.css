@@ -7,6 +7,10 @@
     z-index: 999;
 }
 
+.appbar .title {
+    color: white;
+}
+
 .page-title {
     padding: 2.5em;
     padding-left: 1.5em;
@@ -23,7 +27,11 @@ aside .list {
     border-top: 0;
 }
 
-@media screen and (max-width: 640px) {
+.sides main {
+    flex-grow: 1;
+}
+
+@media screen and (max-width: 600px) {
     .sides aside {
         flex: none;
         width: 100%;
@@ -32,6 +40,5 @@ aside .list {
     .sides main {
         word-wrap: break-word;
         width: 100%;
-        margin: 0 auto;
     }
 }

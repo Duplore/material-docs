@@ -1,4 +1,3 @@
-# Components for v2 release
 buttons <br>
 grid <br>
 elevation <br>

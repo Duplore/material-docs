@@ -6,3 +6,5 @@ edit_uri: edit/main/docs/
 theme:
     name: null
     custom_dir: 'theme'
+    static_templates:
+        - index.html

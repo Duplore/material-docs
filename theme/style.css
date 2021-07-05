@@ -3,6 +3,7 @@
 }
 
 .appbar {
+    min-height: 57px;
     z-index: 999;
 }
 

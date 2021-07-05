@@ -20,9 +20,13 @@ h4 {
 }
 
 ul {
-    list-style: square !important;
+    list-style: none !important;
     margin: 10px 39px;
     line-height: 37px !important;
+}
+
+.hljs {
+    font-family: consolas, monospace, sans-serif;
 }
 
 li:before {

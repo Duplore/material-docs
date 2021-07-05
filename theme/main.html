@@ -1,38 +1,31 @@
+
+
 <!DOCTYPE html>
 <html>
 <head>
-	<title>
-		{% if page.title %}{{ page.title }} - {% endif %}{{ config.site_name
-	}}
-</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
-<meta content="utf-8" http-equiv="encoding" />
-<link
-rel="stylesheet"
-href="https://fonts.googleapis.com/icon?family=Material+Icons"
-/>
-<link
-rel="stylesheet"
-href="https://cdn.jsdelivr.net/gh/tronic247/material/dist/css/material.min.css"
-/>
-<link rel="stylesheet" href="{{ base_url }}/style.css" />
+	<title>{% if page.title %}{{ page.title }} - {% endif %}{{ config.site_name}}</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+	<meta content="utf-8" http-equiv="encoding" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tronic247/material/dist/css/material.min.css" />
+	<link rel="stylesheet" href="{{ base_url }}/style.css" />
 </head>
 <body class="container p-0 m-0">
 	<header class="appbar elevation-4" style="position:fixed;top:0;left:0;width:100%;">
-			<section class="section left">
-				<span class="title">Tronic247 Material</span>
-			</section>
-			<section class="section right">
-				<a class="btn" href={{ page.edit_url }}>Edit this page</a>
-			</section>
+		<section class="section left">
+			<span class="title">Tronic247 Material</span>
+		</section>
+		<section class="section right">
+			<a class="btn" href={{ page.edit_url }}>Edit this page</a>
+		</section>
 	</header>
-	<div class="p-2"></div>
+	<div class="p-4"></div>
 	<div class="background-primary p-5">
 		<h1 class="h4 text-white">{{ page.title }}<</h1>
 	</div>
-	<div class="row container">
-		<div class="col-3">
+	<article class="row container">
+		<aside class="col-3">
 			<div class="list">
 				{% if nav|length>1 %}
 				{% for nav_item in nav %} {% if nav_item.children %}
@@ -60,14 +53,14 @@ href="https://cdn.jsdelivr.net/gh/tronic247/material/dist/css/material.min.css"
 				{% endif %} {% endfor %}
 				{% endif %}
 			</div>
-		</div>
-		<article class="col-9">
-				<div class="container main">{{ page.content }}</div>
-		</article>
+		</aside>
+		<main class="col-9">
+			<div class="p-1">{{ page.content }}</div>
+		</main>
+	</article>
 	</div>
-</div>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.skypack.dev/@hotwired/turbo" type="module"></script>
-<script src="https://cdn.jsdelivr.net/gh/tronic247/material/dist/js/material.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://cdn.skypack.dev/@hotwired/turbo" type="module"></script>
+	<script src="https://cdn.jsdelivr.net/gh/tronic247/material/dist/js/material.min.js"></script>
 </body>
 </html>

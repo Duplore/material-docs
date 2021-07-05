@@ -1,29 +1,60 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>{% if page.title %}{{ page.title }} - {% endif %}{{ config.site_name}}</title>
-	{% if config.site_favicon %}<link rel="shortcut icon" href="{{ config.site_favicon|url }}">
-    {% else %}<link rel="shortcut icon" href="{{ 'img/favicon.ico'|url }}">{% endif %}
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
-	<meta content="utf-8" http-equiv="encoding" />
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tronic247/material/dist/css/material.min.css" />
-	<link rel="stylesheet" href="{{ base_url }}/style.css" />
-	<script data-ad-client="ca-pub-8836219589547174" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-</head>
-<body class="container-fluid p-0 m-0">
-	<header class="appbar elevation-4" style="position:fixed;top:0;left:0;width:100%;">
-		<section class="section left">
-			<a class="title text-white" href="https://tronic247.github.io/material-docs/">Tronic247 Material</a>
-		</section>
-		<section class="section right">
-			{% block edit_btn %}{% endblock %}
-		</section>
-	</header>
-	{% block content %}{% endblock %}
-	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-	<script src="https://cdn.skypack.dev/@hotwired/turbo" type="module"></script>
-	<script src="https://cdn.jsdelivr.net/gh/tronic247/material/dist/js/material.min.js"></script>
-</body>
+    <head>
+        <title>
+            {% if page.title %}{{ page.title }} - {% endif %}{{
+            config.site_name}}
+        </title>
+        {% if config.site_favicon %}
+        <link rel="shortcut icon" href="{{ config.site_favicon|url }}" />
+        {% else %}
+        <link rel="shortcut icon" href="{{ 'img/favicon.ico'|url }}" />
+        {% endif %}
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+        <meta content="utf-8" http-equiv="encoding" />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/gh/tronic247/material/dist/css/material.min.css"
+        />
+        <link rel="stylesheet" href="{{ base_url }}/style.css" />
+        <link
+            rel="stylesheet"
+            href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.0.1/build/styles/default.min.css"
+        />
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.0.1/build/highlight.min.js"></script>
+        <script>
+            hljs.highlightAll();
+        </script>
+        <script
+            data-ad-client="ca-pub-8836219589547174"
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+        ></script>
+    </head>
+    <body class="container-fluid p-0 m-0">
+        <header
+            class="appbar elevation-4"
+            style="position: fixed; top: 0; left: 0; width: 100%"
+        >
+            <section class="section left">
+                <a
+                    class="title text-white"
+                    href={{ nav.homepage.url|url }}
+                    >Tronic247 Material</a
+                >
+            </section>
+            <section class="section right">
+                {% block edit_btn %}{% endblock %}
+            </section>
+        </header>
+        {% block content %}{% endblock %}
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/tronic247/material/dist/js/material.min.js"></script>
+		<script src="{{ base_url }}/script.js"></script>
+    </body>
 </html>

@@ -296,14 +296,13 @@ aside .list {
     .sides aside {
         flex: none;
         margin: 0 auto;
-        width: 100%;
+        width: initial;
         height: initial;
         position: static;
     }
 
     .sides main {
         word-wrap: break-word;
-        margin: 0 auto;
         width: 100%;
     }
 }

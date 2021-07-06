@@ -100,3 +100,15 @@ Add the class `.btn` to the `a` element.
 ```
 <a class="btn" href="https://google.com">Click Me</a>
 ```
+#### Button colors
+<div class="table-container">
+
+    | Color     | class      | Preview 					     |
+    |-----------|------------|-----------------------------------------------|
+    | Primary   |            | <button>Button</button>       		     |
+    | Secondary | ` .secondary ` | <button class="secondary">Button</button>     |
+    | Success   | ` .success `   | <button class="success">Button</button>       |
+    | Danger    | ` .danger `    | <button class="danger">Button</button>        |
+    | Dark      | ` .dark `     | <button class="dark">Button</button>          |
+
+</div>

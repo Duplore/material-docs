@@ -103,13 +103,40 @@ Add the class `.btn` to the `a` element.
 #### Button colors
 
 <div class="table-container">
-
-| Color     | class      | Preview |
-|-----------|------------|---------|
-| Primary   | --         |   <button>Button</button>       		        |
-| Secondary | .secondary |   <button class="secondary">Button</button>     |
-| Success   | .success   |   <button class="success">Button</button>       |
-| Danger    | .danger    |   <button class="danger">Button</button>        |
-| Dark      | .dark      |   <button class="dark">Button</button>          |
-
+<table>
+	<thead>
+	<tr>
+	<th>Color</th>
+	<th>class</th>
+	<th>Preview</th>
+</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>Primary</td>
+		<td>--</td>
+		<td><button>Button</button>  </td>
+	</tr>
+	<tr>
+		<td>Secondary</td>
+		<td>.secondary</td>
+		<td><button class="secondary">Button</button></td>
+	</tr>
+	<tr>
+		<td>Success</td>
+		<td>.success</td>
+		<td><button class="success">Button</button></td>
+	</tr>
+	<tr>
+		<td>Danger</td>
+		<td>.danger</td>
+		<td><button class="danger">Button</button></td>
+	</tr>
+	<tr>
+		<td>Dark</td>
+		<td>.dark</td>
+		<td><button class="dark">Button</button></td>
+	</tr>
+</tbody>
+</table>
 </div>

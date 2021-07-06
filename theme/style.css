@@ -56,18 +56,33 @@ li:before {
 
 .sides aside {
     width: 25%;
+    padding-left: 0;
 }
 
 aside .list {
     position: sticky;
     top: 57px;
     border-top: 0;
-    max-height: 96%;
+    height: 100%;
     overflow: auto;
+}
+
+.darkmode--activated .list {
+    background-color: black;
+}
+
+.darkmode--activated .list a {
+    color: white;
+}
+
+aside .list a {
+    border-radius: 4px;
+    margin: 0.3em;
 }
 
 .sides main {
     flex-grow: 1;
+    padding-right: 0;
 }
 
 .sides main * {
@@ -83,8 +98,8 @@ aside .list {
 @media screen and (max-width: 600px) {
     .sides aside {
         flex: none;
-        margin: 0 auto;
         width: 100%;
+        padding: 0;
         height: initial;
         position: static;
     }

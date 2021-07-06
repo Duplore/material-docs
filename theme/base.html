@@ -39,11 +39,17 @@
                     >Tronic247 Material</a
                 >
             </section>
+            <script data-no-instant>
+                try {
+                    darkmode = new Darkmode({backgroundColor: '#ffffff'});
+                } catch (error) {
+                    console.log("Can't reload darkmode.js");
+                }
+            </script>
             <section class="section right"><button class="icon" onclick="darkmode.toggle();"><span class="material-icons">dark_mode</span></button></section>
         </header>
         {% block content %}{% endblock %}
         <footer class="p-4 background-primary text-white">
-            <p>People who supported this project:</p><br>
             <a href="{{ config.main_repo_url }}/graphs/contributors">
                 <embed src="https://contrib.rocks/image?repo=tronic247/material" class="darkmode-ignore"></embed>
             </a><br><br>
@@ -57,11 +63,6 @@
         ></script>
         <script data-no-instant>
             InstantClick.init("mousedown");
-            try {
-                console.log(darkmode);
-            } catch (error) {
-                const darkmode = new Darkmode({backgroundColor: '#ffffff'});
-            }
         </script>
         <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.0.1/build/highlight.min.js"></script>
         <script

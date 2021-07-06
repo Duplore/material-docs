@@ -9,6 +9,9 @@
     z-index: 999;
 }
 
+main h3:first-of-type {
+	display: none !important;
+}
 code {
     background: #f8f8f8 !important;
     border-radius: 4px 4px 0px 0px;

@@ -10,9 +10,10 @@ dist/ <Compiled files>
 src/ <Source files>
 ```
 
--   Note that jQuery and Material icons must be imported before importing the library files. See below how to import them using a CDN.
--   The Roboto font is automatically imported by Google fonts CDN service.
-
+<div class="p-4 elevation-2">
+ &gt; Note that jQuery and Material icons must be imported before importing the library files. See below how to import them using a CDN.
+<br> &gt; The Roboto font is automatically imported by Google fonts CDN service.
+</div>
 ### Installing from a CDN
 
 if you want to use a CDN, see below.

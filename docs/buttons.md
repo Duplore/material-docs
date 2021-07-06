@@ -57,7 +57,9 @@ Add the class `.btn` to the element.
 	<button class="btn">Click Me</button>
 </div>
 
-```<button class="btn">Click Me</button>```
+```
+<button class="btn">Click Me</button>
+```
 
 #### Unelevated button
 Add the class `.unelevated` to the element.
@@ -65,7 +67,9 @@ Add the class `.unelevated` to the element.
 	<button class="btn unelevated">Click Me</button>
 </div>
 
-```<button class="btn unelevated">Click Me</button>```
+```
+<button class="btn unelevated">Click Me</button>
+```
 
 #### Text button
 Add the class `.text` to the element.
@@ -73,7 +77,9 @@ Add the class `.text` to the element.
 	<button class="btn text">Click Me</button>
 </div>
 
-```<button class="btn text">Click Me</button>```
+```
+<button class="btn text">Click Me</button>
+```
 
 #### Outlined button
 Add the class `.outlined` to the element.
@@ -81,4 +87,16 @@ Add the class `.outlined` to the element.
 	<button class="btn outlined">Click Me</button>
 </div>
 
-```<button class="btn outlined">Click Me</button>```
+```
+<button class="btn outlined">Click Me</button>
+```
+
+#### Link button
+Add the class `.btn` to the `a` element.
+<div class="p-4 m-1 background-light-grey">
+	<a class="btn" href="https://google.com" onclick="return false;">Click Me</a>
+</div>
+
+```
+<a class="btn" href="https://google.com">Click Me</a>
+```

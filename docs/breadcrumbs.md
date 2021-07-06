@@ -1,4 +1,4 @@
-### Buttons
+### Breadcrumbs
 
 <div class="p-4 m-1 background-light-grey">
 	<ul class="breadcrumb">
@@ -14,10 +14,10 @@ Create a element  with the class `breadcrumb` added to it. The add the class `it
 
 ```
 <ul class="breadcrumb">
-		<li class="item">Item</li>
-		<li class="item">Item</li>
-		<li class="item">Item</li>
-		<li class="item">Item</li>	
+	<li class="item">Item</li>
+	<li class="item">Item</li>
+	<li class="item">Item</li>
+	<li class="item">Item</li>	
 </ul>
 ```
 
@@ -35,9 +35,9 @@ Add the class `active` to the element with the class `item`.
 
 ```
 <ul class="breadcrumb">
-		<li class="item">Item</li>
-		<li class="item">Item</li>
-		<li class="item">Item</li>
-		<li class="item active">Active item</li>	
+	<li class="item">Item</li>
+	<li class="item">Item</li>
+	<li class="item">Item</li>
+	<li class="item active">Active item</li>	
 </ul>
 ```

@@ -1,4 +1,4 @@
-### Checkboxes
+### Chips
 
 #### Usage
 Create a element with the class `chip` and type the text inside it.

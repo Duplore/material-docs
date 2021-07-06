@@ -7,7 +7,28 @@
     min-height: 57px;
     z-index: 999;
 }
-
+code {
+	background: #f8f8f8 !important;
+	border-radius: 4px 4px 0px 0px;
+	font-family: "consolas" , monospace;
+	font-size: 14px !important;
+	line-height: 20px;
+}
+code:hover {
+	background: #f3f3f3 !important;
+}
+#search {
+	padding: 6px 10px;
+	border: none;
+	background: #2189ef;
+	border-radius: 4px;
+	color: white;
+	width: 78px;
+	transition: all 0.2s ease;
+}
+#search:focus {
+	width: 200px;
+}
 h3 {
     font-size: 30px !important;
     margin: 20px 0px;

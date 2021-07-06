@@ -25,9 +25,8 @@
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.0.1/build/styles/default.min.css"
         />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" /> 
         <link rel="stylesheet" href="{{ base_url }}/style.css" />
-
-        <script src="https://cdn.jsdelivr.net/npm/darkmode-js/lib/darkmode-js.min.js"></script>
     </head>
     <body class="container-fluid p-0 m-0">
         <header
@@ -39,7 +38,7 @@
                     >Tronic247 Material</a
                 >
             </section>
-            <section class="section right"><button class="icon" onclick="darkmode.toggle();"><span class="material-icons">dark_mode</span></button></section>
+            <section class="section right"><input id="search"></section>
         </header>
         {% block content %}{% endblock %}
         <footer class="p-4 background-primary text-white">
@@ -73,5 +72,7 @@
         <script>
             hljs.highlightAll();
         </script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+     <script type="text/javascript"> docsearch({apiKey: '2f622bb017fc137b9c550c565cb2452e',indexName: 'tronic_material',inputSelector: '#search',debug: !1});</script> 
     </body>
 </html>

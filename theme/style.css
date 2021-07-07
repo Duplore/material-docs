@@ -1,17 +1,8 @@
-.sides aside {
-    position: sticky;
-    top: 56px;
-    height: 100vh;
-}
-
 .appbar {
     min-height: 57px;
     z-index: 999;
 }
 
-main h3:first-of-type {
-	display: none !important;
-}
 code {
     background: #f8f8f8 !important;
     border-radius: 4px 4px 0px 0px;
@@ -43,6 +34,10 @@ h3 {
     margin: 20px 0px;
     border-bottom: 1px solid gainsboro;
     padding: 0px 0px 11px 0px;
+}
+
+main h3:first-of-type {
+	display: none !important;
 }
 
 h4 {
@@ -85,8 +80,15 @@ li:before {
     width: 100%;
 }
 
+.sides {
+    margin: 0;
+}
+
 .sides aside {
     width: 25%;
+    position: sticky;
+    top: 56px;
+    height: 100vh;
 }
 
 aside .list {
@@ -148,5 +150,3 @@ aside .list {
 footer {
     text-align: center;
 }
-
-

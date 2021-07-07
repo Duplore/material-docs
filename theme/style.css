@@ -21,7 +21,8 @@ code:hover {
     background: #2189ef;
     border-radius: 4px;
     color: white;
-    width: 78px;
+    width: 100px;
+    margin-top: -5px;
     transition: all 0.2s ease;
 }
 

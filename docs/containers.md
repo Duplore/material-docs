@@ -2,9 +2,7 @@
 
 #### Normal container
 <div class="p-4 background-light-grey">
-	<div class="container elevation-1 background-primary">
-		<p>content</p>
-	</div>
+	<div class="elevation-1 background-primary m-4"></div>
 </div>
 
 ```
@@ -15,9 +13,7 @@
 
 #### Fluid container
 <div class="p-4 background-light-grey">
-	<div class="container-fluid elevation-1 background-primary">
-		<p>content</p>
-	</div>
+	<div class="elevation-1 background-primary m-1"></div>
 </div>
 
 ```

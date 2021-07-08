@@ -48,7 +48,7 @@ Create add the class `outlined` to the element with the class `button-group` and
 </div>
 
 ```
-<div class="button-group outlined">
+<div class="button-group">
 	<button class="text">Button</button>
 	<button class="text">Button</button>
 	<button class="text">Button</button>
@@ -66,7 +66,7 @@ Create add the class `outlined` to the element with the class `button-group` and
 </div>
 
 ```
-<div class="button-group outlined">
+<div class="button-group">
 	<button class="unelevated">Button</button>
 	<button class="unelevated">Button</button>
 	<button class="unelevated">Button</button>

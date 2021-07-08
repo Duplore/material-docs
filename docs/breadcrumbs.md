@@ -1,4 +1,4 @@
-### Breadcrumbs
+### Breadcrumbs 
 
 <div class="p-4 m-1 background-light-grey">
 	<ul class="breadcrumb">
@@ -10,7 +10,7 @@
 </div>
 
 #### Usage
-Create a element  with the class `breadcrumb` added to it. The add the class `item` to it's children.
+Create a element with the class `breadcrumb` added to it. The add the class `item` to it's children.
 
 ```
 <ul class="breadcrumb">

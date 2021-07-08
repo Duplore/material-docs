@@ -15,7 +15,7 @@ Standard build (for production):
 `python3 -m mkdocs build`
 
 ## Contributors
-These great people help the development of this framework.<br>
+These great people help to the documentation of the framework<br>
 <a href="https://github.com/tronic247/material-docs/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=tronic247/material-docs" />
 </a>

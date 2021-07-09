@@ -11,3 +11,4 @@ theme:
     custom_dir: 'theme'
     static_templates:
         - index.html
+        - ads.txt

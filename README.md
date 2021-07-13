@@ -1,4 +1,4 @@
-# [Tronic247 Material Docs](https://material.pages.dev/) [![Build to GitHub Pages](https://github.com/Tronic247/material-docs/actions/workflows/build.yml/badge.svg)](https://github.com/Tronic247/material-docs/actions/workflows/build.yml)
+# [Tronic247 Material Docs](https://material.pages.dev/)
 The official docs for Tronic247 Material.
 
 ## Install

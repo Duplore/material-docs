@@ -4,10 +4,10 @@
 <div class="p-4 background-light-grey">
     <img src="https://res.cloudinary.com/tronic247/image/upload/v1626077024/Capture_s7w393.png" usemap="#image-map">
     <map name="image-map">
-        <area coords="142,123,371,313" shape="rect" data-title="Content">
-        <area coords="138,316,386,360" shape="rect" data-title="Footer">
-        <area coords="144,78,376,116" shape="rect" data-title="Header">
-        <area coords="1,87,9,447,11,362,510,365,509,18,415,15,400,439,23,364,19,446,12,158,106,353,111,3,6,7,471,1,443,62,4,46" shape="poly" data-title="Overlay">
+        <area coords="142,123,371,313" shape="rect" data-tooltip="Content">
+        <area coords="138,316,386,360" shape="rect" data-tooltip="Footer">
+        <area coords="144,78,376,116" shape="rect" data-tooltip="Header">
+        <area coords="1,87,9,447,11,362,510,365,509,18,415,15,400,439,23,364,19,446,12,158,106,353,111,3,6,7,471,1,443,62,4,46" shape="poly" data-tooltip="Overlay">
     </map>
 </div>
 

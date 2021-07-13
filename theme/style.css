@@ -28,7 +28,9 @@ code:hover {
     margin-top: -5px;
     transition: all 0.2s ease;
 }
-
+#search::placeholder {
+ color:#fff;	
+}
 #search:focus {
     width: 200px;
 }

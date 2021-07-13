@@ -4,10 +4,10 @@
 <div class="p-4 background-light-grey">
     <img src="https://res.cloudinary.com/tronic247/image/upload/v1626077024/Capture_s7w393.png" usemap="#image-map">
     <map name="image-map">
-        <area target="" alt="" title="" href="" coords="142,123,371,313" shape="rect">
-        <area target="" alt="" title="" href="" coords="138,316,386,360" shape="rect">
-        <area target="" alt="" title="" href="" coords="144,78,376,116" shape="rect">
-        <area target="" alt="" title="" href="" coords="1,87,9,447,11,362,510,365,509,18,415,15,400,439,23,364,19,446,12,158,106,353,111,3,6,7,471,1,443,62,4,46" shape="poly">
+        <area coords="142,123,371,313" shape="rect" data-title="Content">
+        <area coords="138,316,386,360" shape="rect" data-title="Footer">
+        <area coords="144,78,376,116" shape="rect" data-title="Header">
+        <area coords="1,87,9,447,11,362,510,365,509,18,415,15,400,439,23,364,19,446,12,158,106,353,111,3,6,7,471,1,443,62,4,46" shape="poly" data-title="Overlay">
     </map>
 </div>
 
@@ -63,7 +63,7 @@
 #### Trigger
 
 <div class="p-4 background-light-grey">
-    <button data-trigger="dialog" data-dialog="#demo-dialog-trigger">Open</button>
+    <button data-trigger="dialog" data-dialog="#demo-dialog-trigger" class="text">Open</button>
         <div class="dialog-overlay" id="demo-dialog-trigger">
             <div class="dialog">
                 <div class="dialog-header">

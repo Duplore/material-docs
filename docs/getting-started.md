@@ -21,7 +21,7 @@ if you want to use a CDN, see below.
 #### Material icons
 
 ```
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
 ```
 
 #### jQuery
@@ -46,7 +46,7 @@ if you want to use a CDN, see below.
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>A Basic HTML5 Template</title>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/gh/tronic247/material/dist/css/material.min.css" rel="stylesheet" />
 </head>
 <body class="container">

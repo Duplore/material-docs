@@ -100,6 +100,18 @@ Add the class `.btn` to the `a` element.
 ```
 <a class="btn" href="https://google.com">Click Me</a>
 ```
+
+#### Disabled button
+Add the class `.disabled` to the element.
+<div class="p-4 m-1 background-light-grey">
+	<button class="btn disabled">Click Me</button>
+</div>
+
+```
+<button class="btn disabled">Click Me</button>
+```
+<div class="alert"><p class="alert-message">Please note that the <code>disabled</code> buttons use <code>pointer-events:none</code> to disable the mouse navigation. You must block the button from clicking from the tabbing also.</p></div>
+
 #### Button colors
 
 <div class="table-container">
@@ -136,6 +148,38 @@ Add the class `.btn` to the `a` element.
 		<td>Dark</td>
 		<td>.dark</td>
 		<td><button class="dark">Button</button></td>
+	</tr>
+</tbody>
+</table>
+</div>
+
+
+#### Button sizes
+
+<div class="table-container">
+<table>
+	<thead>
+	<tr>
+	<th>Size</th>
+	<th>class</th>
+	<th>Preview</th>
+</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>Normal</td>
+		<td>--</td>
+		<td><button>Button</button>  </td>
+	</tr>
+	<tr>
+		<td>Large</td>
+		<td>.large</td>
+		<td><button class="large">Button</button></td>
+	</tr>
+	<tr>
+		<td>Small</td>
+		<td>.small</td>
+		<td><button class="small">Button</button></td>
 	</tr>
 </tbody>
 </table>
